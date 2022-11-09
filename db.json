@@ -14,7 +14,7 @@
       "tankingBalance": "1000000"
     }
   ],
-  "transactions-cancel": [
+  "user-charge-cancel": [
     {
       "id": "Y0000000000100001065",
       "機能": "障害取消",
