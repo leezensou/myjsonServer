@@ -16,7 +16,7 @@
   ],
    "user-deposit-transactions": [
     {
-      "id": "Y0000000000100001065",
+      "id": "Y0000000000100001062",
       "機能1": " 利用者入金",
       "transactionNumber": "Y0000000000100001065",
       "requestDateTime": "2020-02-20T12:34:56.789",
@@ -32,7 +32,7 @@
 
   "company-charge-transactions": [
     {
-      "id": "Y0000000000100001065",
+      "id": "Y0000000000100001063",
       "機能1": "収納企業引落",
       "transactionNumber": "Y0000000000100001065",
       "requestDateTime": "2020-02-20T12:34:56.789",
@@ -47,7 +47,7 @@
   ],
   "company-deposit-transactions": [
     {
-      "id": "Y0000000000100001065",
+      "id": "Y0000000000100001064",
       "機能1": " 収納企業入金",
       "transactionNumber": "Y0000000000100001065",
       "requestDateTime": "2020-02-20T12:34:56.789",
