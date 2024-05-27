@@ -1,5 +1,5 @@
 {
-  "user-charge-transactions": [
+  "user-charge-G06-transactions": [
     {
       "id": "Y0000000000100001061",
       "機能1": " 利用者引落",
@@ -8,13 +8,28 @@
       "jcnApiSeqNumber": "20191212143219103010",
       "jcnReceiveDateTime": "2020-02-20T12:34:56.789",
       "resultCode": "000000",
-      "localResponseCode": "G85",
+      "localResponseCode": "G06",
       "amount": "12345678900",
       "tankingNumber": "00123",
       "tankingBalance": "1000000"
     }
   ],
-   "user-deposit-transactions": [
+  "user-charge-G85-transactions": [
+    {
+      "id": "Y0000000000100001061",
+      "機能1": " 利用者引落",
+      "transactionNumber": "Y0000000000100001061",
+      "requestDateTime": "2020-02-20T12:34:56.789",
+      "jcnApiSeqNumber": "20191212143219103010",
+      "jcnReceiveDateTime": "2020-02-20T12:34:56.789",
+      "resultCode": "000000",
+      "localResponseCode": "G06",
+      "amount": "12345678900",
+      "tankingNumber": "00123",
+      "tankingBalance": "1000000"
+    }
+  ],
+   "user-deposit-G06-transactions": [
     {
       "id": "Y0000000000100001062",
       "機能1": " 利用者入金",
@@ -29,11 +44,25 @@
       "tankingBalance": "1000000"
     }
   ],
-
-  "company-charge-transactions": [
+ "user-deposit-G85-transactions": [
+    {
+      "id": "Y0000000000100001062",
+      "機能1": " 利用者入金",
+      "transactionNumber": "Y0000000000100001065",
+      "requestDateTime": "2020-02-20T12:34:56.789",
+      "jcnApiSeqNumber": "20191212143219103010",
+      "jcnReceiveDateTime": "2020-02-20T12:34:56.789",
+      "resultCode": "000000",
+      "localResponseCode": "G06",
+      "amount": "12345678900",
+      "tankingNumber": "00123",
+      "tankingBalance": "1000000"
+    }
+  ],
+  "system-error-transactions": [
     {
       "id": "Y0000000000100001063",
-      "機能1": "収納企業引落",
+      "機能1": "システムエラー",
       "transactionNumber": "Y0000000000100001065",
       "requestDateTime": "2020-02-20T12:34:56.789",
       "jcnApiSeqNumber": "20191212143219103010",
@@ -43,32 +72,6 @@
       "amount": "12345678900",
       "tankingNumber": "00123",
       "tankingBalance": "1000000"
-    }
-  ],
-  "company-deposit-transactions": [
-    {
-      "id": "Y0000000000100001064",
-      "機能1": " 収納企業入金",
-      "transactionNumber": "Y0000000000100001065",
-      "requestDateTime": "2020-02-20T12:34:56.789",
-      "jcnApiSeqNumber": "20191212143219103010",
-      "jcnReceiveDateTime": "2020-02-20T12:34:56.789",
-      "resultCode": "000000",
-      "localResponseCode": "000",
-      "amount": "12345678900",
-      "tankingNumber": "00123",
-      "tankingBalance": "0"
-    }
-  ],
-  "transactions-cancel": [
-    {
-      "id": "Y0000000000100001065",
-      "機能": "障害取消",
-      "transactionNumber": "Y0000000000100001065",
-      "jcnApiSeqNumber": "20191212143219103010",
-      "jcnReceiveDateTime": "2020-02-20T12:34:56.789",
-      "resultCode": "000000",
-      "localResponseCode": "000"
     }
   ]
 }
